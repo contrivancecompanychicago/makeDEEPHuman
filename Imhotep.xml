@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<IMHOTEP>
+  <SUPERCLASS>
+    Imhotep
+    <SUBCLASS>
+      Caos
+    </SUBCLASS>
+    <SUBCLASS1>
+      Metabis
+    </SUBCLASS1>
+    <SUBCLASS2>
+      Paleos
+    </SUBCLASS2>
+  </SUPERCLASS>
+  <METHODHEADER>
+  </METHODHEADER>
+  <MAINMETHOD>
+  </MAINMETHOD>
+  <METHODBODY>
+    <pirddiiq>
+      <patient>
+      <foo>0</foo>
+      <bar>string</bar>
+        <ethnicity></ethnicity>
+        <age></age>
+        <gender></gender>
+      </patient>
+      <healthsystem>
+        <healthreferralnetwork>
+        <hospital>UI Health System</hospital>
+        <hospital1>Cook County Health System</hospital1>
+        <hospital2>Advocate Health System</hospital2>
+        <hospital3>Rush University Health System</hospital3>
+        <clinic>Advocate Clinic</clinic>
+        <clinic1>HAH Model</clinic1>
+          <clinic2>DEEP MMIA</clinic2>
+        </healthreferralnetwork>
+        <database>
+        <lab>PIRDDIQ Lab</lab>
+        <lab1>CAOS Medical Lab</lab1>
+        </database>
+        <medicaid>Illinois Medicaid</medicaid>
+        <medicare>Medicare A</medicare>
+        <medicare1>Medicare B</medicare1>
+        <medicare2>Medicare C</medicare2>
+        <medicare3>Medicare D</medicare3>
+        <doctors>
+          <telehealth>
+            <chat>
+              <twilio>
+                <phonenumber>
+                </phonenumber>
+                <sid>
+                </sid>
+                <sip>
+                </sip>
+                <Response>
+                  <Say>
+                    Client
+                  </Say>
+                </Response>
+              </twilio>
+              <zoom>
+              </zoom>
+              <discord>
+                CO2REapp
+              </discord>
+            </chat>
+          </telehealth>
+           <primarycare>
+            <ward>
+              <subspeciality>Northwestern University</subspeciality>
+            <department>Geriatrics</department>
+            <department1>Internal Medicine</department1>
+            <department2>Emergency Medicine</department2>
+              <subward>
+              <department3>Hospital Nutrition</department3>
+              </subward>
+            </ward>
+            <diagnosis>
+              <database1>
+              <METABIS></METABIS>
+              </database1>
+            <symptoms>
+              <database2>
+              <METABIS1>
+                <KEGGPathwayJP></KEGGPathwayJP>
+              </METABIS1>
+              </database2>
+             <symptom1>
+               <rasa>
+               muscle spasm
+               </rasa>
+             </symptom1>
+             <symptom2>
+               <rasa1>
+               neck pain
+               </rasa1>
+             </symptom2>
+             <symptom3>
+               <rasa2>
+               excessive pain
+               </rasa2>
+             </symptom3>
+             <symptom4>
+               <rasa3>
+               anxiety
+               </rasa3>
+             </symptom4>
+             <symptom5>
+               <rasa4>
+               ear swelling
+               </rasa4>
+             </symptom5>
+            </symptoms>
+            </diagnosis>
+          </primarycare>
+        </doctors>
+      </healthsystem>
+      <pharmakonhealthcloud>
+        <dependency>
+  <groupId>com.wildbit.java</groupId>
+  <artifactId>postmark</artifactId>
+  <version>{version}</version>
+</dependency>
+        <subspeciality1>
+          Chicago State University School of Pharmacy</subspeciality1>
+        <Mapbox>
+        <location>Jewel Osco</location>
+        <location1>Marianos</location1>
+        <location2>Walmart</location2>
+        <location3>CVS</location3>
+        <location4>Walgreens</location4>
+        <location5>Amazon</location5>
+        </Mapbox>
+        <METABIS2>
+          <database3>
+          <Chemspider></Chemspider>
+          <pillbox>
+        <prescription>Over the Counter</prescription>
+        <prescription1>Behind the Counter</prescription1>
+          </pillbox>
+          </database3>
+        </METABIS2>
+      </pharmakonhealthcloud>
+    </pirddiiq>
+  </METHODBODY>
+</IMHOTEP>
