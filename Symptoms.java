@@ -1,4 +1,4 @@
-public class Symptoms extends Main {
+public class Symptoms extends BitwiseHuman {
 
   public static void printName(String symptom) {
 
