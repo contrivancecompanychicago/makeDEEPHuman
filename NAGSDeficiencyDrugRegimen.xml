@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="17f41eed-2800-4ec5-9bff-8d2a2a64f8ef"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>BUPHENYL<sup>®</sup> (sodium phenylbutyrate) Tablets <br/>BUPHENYL<sup>®</sup> (sodium phenylbutyrate) Powder</title>
+   <effectiveTime value="20220728"/>
+   <setId root="463a36fa-3eb2-4326-8bd0-c8c7a11bca3a"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="033470838" root="1.3.6.1.4.1.519.1"/>
+            <name>Horizon Therapeutics USA, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="13091533-d1d1-4909-beaa-07580679401c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20220728"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="75987-060" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BUPHENYL</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>sodium phenylbutyrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="500" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="NT6K61736T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHENYLBUTYRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7WY7YBI87E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENYLBUTYRIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="75987-060-08" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19960513"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020572" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960513"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="16" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">UCY;500</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="75987-070" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Buphenyl</name>
+                        <formCode code="C42972" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>sodium phenylbutyrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="0.94" unit="g"/>
+                              <denominator value="1" unit="g"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="NT6K61736T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHENYLBUTYRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7WY7YBI87E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PHENYLBUTYRIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="776XM7047L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="75987-070-09" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19960430"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020573" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960430"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a500fd46-bf10-4ce2-8394-b4f1aca3acbe"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>[bu'fen-əl]<br/>
+                     <content styleCode="bold">(sodium phenylbutyrate)</content>
+                  </paragraph>
+                  <paragraph>Rx Only</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1ed0fd43-6722-42a8-9ae7-17ec27df5d83"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>BUPHENYL (sodium phenylbutyrate) Tablets for oral administration and BUPHENYL (sodium phenylbutyrate) Powder for oral, nasogastric, or gastrostomy tube administration contain sodium phenylbutyrate. Sodium phenylbutyrate is an off-white crystalline substance which is soluble in water and has a strong salty taste. Sodium phenylbutyrate also is freely soluble in methanol and practically insoluble in acetone and diethyl ether. It is known chemically as 4-phenylbutyric acid, sodium salt with a molecular weight of 186 and the molecular formula C<sub>10</sub>H<sub>11</sub>O<sub>2</sub>Na.</paragraph>
+                  <paragraph>Chemical Structure:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>Each tablet of BUPHENYL contains 500 mg of sodium phenylbutyrate and the inactive ingredients microcrystalline cellulose NF, magnesium stearate NF, and colloidal silicon dioxide NF.</paragraph>
+                  <paragraph>Each gram of BUPHENYL Powder contains 0.94 grams of sodium phenylbutyrate and the inactive ingredients calcium stearate NF, and colloidal silicon dioxide NF.</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="buphenyl-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7c4fb336-0d0e-4a4f-9882-ebe03cffc58e"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Sodium phenylbutyrate is a pro-drug and is rapidly metabolized to phenylacetate. Phenylacetate is a metabolically active compound that conjugates with glutamine via acetylation to form phenylacetylglutamine. Phenylacetylglutamine then is excreted by the kidneys. On a molar basis, it is comparable to urea (each containing two moles of nitrogen). Therefore, phenylacetylglutamine provides an alternate vehicle for waste nitrogen excretion.</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ef1d68fd-74cc-4a5f-9f7f-8c7486ba496e"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <title>PHARMACOKINETICS</title>
+               <effectiveTime value="20220805"/>
+               <component>
+                  <section>
+                     <id root="658eb234-7de7-48ba-952d-67f595a0ca9b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Pharmacokinetic studies have not been conducted in the primary patient population (neonates, infants, and children), but pharmacokinetic data were obtained from normal adult subjects.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="7b080b78-3dc9-40fc-b1ce-a7fdc69501b6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Absorption</title>
+                     <text>
+                        <paragraph>Peak plasma levels of phenylbutyrate occur within 1 hour after a single dose of 5 grams of sodium phenylbutyrate tablet with a C<sub>max</sub> of 218 µg/mL under fasting conditions; peak plasma levels of phenylbutyrate occur within 1 hour after a single dose of 5 grams of sodium phenylbutyrate powder with a C<sub>max</sub> of 195 µg/mL under fasting conditions. The effect of food on phenylbutyrate's absorption is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="5c53a745-86d3-4f06-92b9-420e5e5c717f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Disposition</title>
+                     <text>
+                        <paragraph>The overall disposition of sodium phenylbutyrate and its metabolites has not been characterized fully. However, the drug is known to be metabolized to phenylacetate and subsequently to phenylacetylglutamine. Following oral administration of 5 grams (tablets), measurable plasma levels of phenylbutyrate and phenylacetate were detected 15 and 30 minutes after dosing, respectively, and phenylacetylglutamine was detected shortly thereafter. The pharmacokinetic parameters for phenylbutyrate for C<sub>max</sub> (µg/mL), T<sub>max</sub> (hours), and elimination half-life (hours) were 218, 1.35, and 0.77, respectively, and for phenylacetate were 48.5, 3.74, and 1.15, respectively. </paragraph>
+                        <paragraph>Following oral administration of 5 grams of the powder, measurable plasma levels of phenylbutyrate and phenylacetate were detected 15 and 30 minutes after dosing, respectively, and phenylacetylglutamine was detected shortly thereafter. The pharmacokinetic parameters for phenylbutyrate for C<sub>max</sub> (µg/mL), T<sub>max</sub> (hours), and elimination half-life (hours) were 195, 1.00, and 0.76, respectively, and for phenylacetate were 45.3, 3.55, and 1.29, respectively.</paragraph>
+                        <paragraph>The major sites for metabolism of sodium phenylbutyrate are the liver and kidney.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0acfb9b8-1b68-4a27-8bfc-a49db876671a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Excretion</title>
+                     <text>
+                        <paragraph>A majority of the administered compound (approximately 80–100%) was excreted by the kidneys within 24 hours as the conjugation product, phenylacetylglutamine. For each gram of sodium phenylbutyrate administered, it is estimated that between 0.12–0.15 grams of phenylacetylglutamine nitrogen are produced.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="CP_pharm">
+                     <id root="64b90397-5106-4fd1-bc3b-839ae79aa0b6"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>Pharmacodynamics</title>
+                     <text>
+                        <paragraph>In patients with urea cycle disorders, BUPHENYL decreased elevated plasma ammonia glutamine levels. It increases waste nitrogen excretion in the form of phenylacetylglutamine.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="cd41a2ab-3ac4-4c5c-b86e-3a68a7dfe1fa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Special Populations</title>
+                     <effectiveTime value="20220805"/>
+                     <component>
+                        <section>
+                           <id root="5f49f3d4-593c-4689-8e2f-137028ca0511"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Gender</title>
+                           <text>
+                              <paragraph>Significant gender differences were found in the pharmacokinetics of phenylbutyrate and phenylacetate, but not for phenylacetylglutamine. The pharmacokinetic parameters (AUC and C<sub>max</sub>), for both plasma phenylbutyrate and phenylacetate were about 30 to 50 percent greater in females than in males.</paragraph>
+                           </text>
+                           <effectiveTime value="20220805"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="9344aff8-bc4b-4f3b-91b8-c10a0b407203"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Hepatic insufficiency</title>
+                           <text>
+                              <paragraph>In patients who did not have urea cycle disorders but had impaired hepatic function, the metabolism and excretion of sodium phenylbutyrate were not affected. However, this information was obtained from unvalidated, uncontrolled case studies.</paragraph>
+                           </text>
+                           <effectiveTime value="20220805"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c1c371bb-bd64-4f7f-9352-e6c7caa8d8b6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>BUPHENYL is indicated as adjunctive therapy in the chronic management of patients with urea cycle disorders involving deficiencies of carbamylphosphate synthetase (CPS), ornithine transcarbamylase (OTC), or argininosuccinic acid synthetase (AS). It is indicated in all patients with neonatal-onset deficiency (complete enzymatic deficiency, presenting within the first 28 days of life). It is also indicated in patients with late-onset disease (partial enzymatic deficiency, presenting after the first month of life) who have a history of hyperammonemic encephalopathy. It is important that the diagnosis be made early and treatment initiated immediately to improve survival. Any episode of acute hyperammonemia should be treated as a life-threatening emergency.</paragraph>
+                  <paragraph>BUPHENYL must be combined with dietary protein restriction and, in some cases, essential amino acid supplementation. (See <linkHtml href="#NM">Nutritional Supplementation subsection of the DOSAGE AND ADMINISTRATION</linkHtml> section.)</paragraph>
+                  <paragraph>Previously, neonatal-onset disease was almost universally fatal within the first year of life, even when treated with peritoneal dialysis and essential amino acids or their nitrogen-free analogs. However, with hemodialysis, use of alternative waste nitrogen excretion pathways (sodium phenylbutyrate, sodium benzoate, and sodium phenylacetate), dietary protein restriction, and, in some cases, essential amino acid supplementation, the survival rate in newborns diagnosed after birth but within the first month of life is almost 80%. Most deaths have occurred during an episode of acute hyperammonemic encephalopathy. Patients with neonatal-onset disease have a high incidence of mental retardation. Those who had IQ tests administered had an incidence of mental retardation as follows: ornithine transcarbamylase deficiency, 100% (14/14 patients tested); argininosuccinic acid synthetase deficiency, 88% (15/17 patients tested); and carbamylphosphate synthetase deficiency, 57% (4/7 patients tested). Retardation was severe in the majority of the retarded patients.</paragraph>
+                  <paragraph>In patients diagnosed during gestation and treated prior to any episode of hyperammonemic encephalopathy, survival is 100%, but even in these patients, most subsequently demonstrate cognitive impairment or other neurologic deficits.</paragraph>
+                  <paragraph>In late-onset deficiency patients, including females heterozygous for ornithine transcarbamylase deficiency, who recover from hyperammonemic encephalopathy and are then treated chronically with sodium phenylbutyrate and dietary protein restriction, the survival rate is 98%. The two deaths in this group of patients occurred during episodes of hyperammonemic encephalopathy. However, compliance with the therapeutic regimen has not been adequately documented to allow evaluation of the potential for BUPHENYL and dietary protein restriction to prevent mental deterioration and recurrence of hyperammonemic encephalopathy if carefully adhered to. The majority of these patients tested (30/46 or 65%) have IQ's in the average to low average/borderline mentally retarded range. Reversal of preexisting neurologic impairment is not likely to occur with treatment and neurologic deterioration may continue in some patients.</paragraph>
+                  <paragraph>Even on therapy, acute hyperammonemic encephalopathy recurred in the majority of patients for whom the drug is indicated.</paragraph>
+                  <paragraph>BUPHENYL may be required lifelong unless orthotopic liver transplantation is elected.</paragraph>
+                  <paragraph>(See <linkHtml href="#CP_pharm">CLINICAL PHARMACOLOGY, Pharmacodynamics</linkHtml> subsection for the biochemical effects of BUPHENYL).</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="71b24fb9-0d54-4cd1-920a-1f0b0971ba2c"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>BUPHENYL should not be used to manage acute hyperammonemia, which is a medical emergency.</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9a849023-1320-44d6-ac9e-7f3fc7e47256"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Each BUPHENYL Tablet contains 62 mg of sodium (9.2% w/w) (corresponding to 124 mg of sodium per gram of sodium phenylbutyrate [12.4% w/w]) and BUPHENYL Powder contains 11.7 grams of sodium per 100 grams of powder, corresponding to 125 mg of sodium per gram of sodium phenylbutyrate (12.4% w/w). BUPHENYL should be used with great care, if at all, in patients with congestive heart failure or severe renal insufficiency, and in clinical states in which there is sodium retention with edema.</paragraph>
+                  <paragraph>Because BUPHENYL is metabolized in the liver and kidney, and phenylacetylglutamine is primarily excreted by the kidney, use caution when administering the drug to patients with hepatic or renal insufficiency or inborn errors of beta oxidation. Probenecid is known to inhibit the renal transport of many organic compounds, including hippuric acid, and may affect renal excretion of the conjugated product of BUPHENYL as well as its metabolite.</paragraph>
+                  <paragraph>Use of corticosteroids may cause the breakdown of body protein and increase plasma ammonia levels.</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="cc778c2f-fc2a-4404-b796-30d4d5cd1697"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20220805"/>
+               <component>
+                  <section>
+                     <id root="150fee0d-090e-46b3-8a85-e36e20997d51"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>BUPHENYL should not be administered to patients with known hypersensitivity to sodium phenylbutyrate or any component of this preparation.</paragraph>
+                        <paragraph>There have been published reports of hyperammonemia being induced by haloperidol and by valproic acid.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="963cfe08-1f44-41e2-be85-00f054852af6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Neurotoxicity of phenylacetate in animals</title>
+                     <text>
+                        <paragraph>When given subcutaneously to rat pups, 190–474 mg/kg phenylacetate caused decreased proliferation and increased loss of neurons, and it reduced CNS myelin. Cerebral synapse maturation was retarded, and the number of functioning nerve terminals in the cerebrum was reduced, which resulted in impaired brain growth. Prenatal exposure of rat pups to phenylacetate produced lesions in layer 5 of the cortical pyramidal cells; dendritic spines were longer and thinner than normal and reduced in number.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="b3b88390-78bc-4491-a354-5d56816b7fa5"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>The full text of the separate insert of information for patients is reprinted at the end of the labeling.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="494344d8-8893-4e0c-96ea-0aa158d543b1"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Plasma levels of ammonia, arginine, branched-chain amino acids, and serum proteins should be maintained within normal limits, and plasma glutamine should be maintained at levels less than 1,000 µmol/L. Serum drug levels of phenylbutyrate and its metabolites, phenylacetate and phenylacetylglutamine, should be monitored periodically.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="fd666df9-99fd-4602-9405-7527f6bc7034"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Carcinogenicity, mutagenicity, and fertility studies of sodium phenylbutyrate have not been conducted.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="721bf998-0d8e-40c8-b18c-7b6d0b5df674"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>Animal reproduction studies have not been conducted with BUPHENYL. It is also not known whether BUPHENYL can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity.</paragraph>
+                        <paragraph>BUPHENYL should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="cb412eea-23f5-408e-a841-ecc84055240b"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when BUPHENYL is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="6cfc45aa-48a3-4e4f-8848-8fcf1b8eab8b"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>The use of tablets for neonates, infants and children to the weight of 20 kg is not recommended. (See <linkHtml href="#DA">Dosage and Administration</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bac724c7-4ef1-4161-8f42-9e2c4f197426"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The assessment of clinical adverse events came from 206 patients treated with sodium phenylbutyrate. Adverse events (both clinical and laboratory) were not collected systematically in these patients, but were obtained from patient visit reports by the 65 co-investigators. Causality of adverse effects is sometimes difficult to determine in this patient population because they may result from either the underlying disease, the patient's restricted diet, intercurrent illness, or BUPHENYL. Furthermore, the rates may be underestimated because they were reported primarily by parent or guardian and not the patient.</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+               <component>
+                  <section>
+                     <id root="0ef32e6c-6798-40bf-bbd8-796cda5962a3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Clinical Adverse Events</title>
+                     <text>
+                        <paragraph>In female patients, the most common clinical adverse event reported was amenorrhea/menstrual dysfunction (irregular menstrual cycles), which occurred in 23% of the menstruating patients.</paragraph>
+                        <paragraph>Decreased appetite occurred in 4% of all patients. Body odor (probably caused by the metabolite, phenylacetate) and bad taste or taste aversion were each reported in 3% of patients.</paragraph>
+                        <paragraph>Other adverse events reported in 2% or fewer patients were:</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gastrointestinal</content>: abdominal pain, gastritis, nausea and vomiting; constipation, rectal bleeding, peptic ulcer disease, and pancreatitis each occurred in one patient.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hematologic</content>: aplastic anemia and ecchymoses each occurred in one patient.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Cardiovascular</content>: arrhythmia and edema each occurred in one patient.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Renal</content>: renal tubular acidosis</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Psychiatric</content>: depression</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Skin</content>: rash</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Miscellaneous</content>: headache, syncope, and weight gain</paragraph>
+                        <paragraph>Neurotoxicity was reported in cancer patients receiving intravenous phenylacetate, 250–300 mg/kg/day for 14 days, repeated at 4-week intervals. Manifestations were predominately somnolence, fatigue, and lightheadedness; with less frequent ­headache, dysgeusia, hypoacusis, disorientation, impaired memory, and exacerbation of a pre-existing neuropathy. These adverse events were mainly mild in severity. The acute onset and reversibility when the phenylacetate infusion was discontinued suggest a drug effect.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2cd0eba8-cb9c-4fac-8a7c-b30aa4b402b2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Laboratory Adverse Events</title>
+                     <text>
+                        <paragraph>In patients with urea cycle disorders, the frequency of laboratory adverse events by body system were:</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolic</content>: acidosis (14%), alkalosis and hyperchloremia (each 7%), hypophosphatemia (6%), hyperuricemia and hyperphosphatemia (each 2%), and hypernatremia and hypokalemia (each 1%).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Nutritional</content>: hypoalbuminemia (11%) and decreased total protein (3%).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hepatic</content>: increased alkaline phosphatase (6%), increased liver transaminases (4%), and hyperbilirubinemia (1%).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Hematologic</content>: anemia (9%), leukopenia and leukocytosis (each 4%), thrombocytopenia (3%), and thrombocytosis (1%).</paragraph>
+                        <paragraph>The clinician is advised to routinely perform urinalysis, blood chemistry profiles, and hematologic tests.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="28971d71-8d65-4a78-ab87-b2b950973ee2"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdoses of BUPHENYL exceeding ten-fold the maximum recommended dosage may produce emesis, CNS depression, metabolic acidosis with or without respiratory alkalosis, hypernatremia, hypokalemia, and hypophosphatemia. Symptoms of overdose overlap with those of acute hyperammonemia. If overdose occurs, discontinue BUPHENYL, monitor plasma phenylacetate and ammonia levels closely, and institute appropriate emergency management, which may include hemodialysis, continuous veno-venous hemofiltration (CVVH), or extracorporeal membrane oxygenation (ECMO).</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="05144ba5-43d8-4b8f-a341-3c5b9a160d2f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>For oral use only.</paragraph>
+                  <paragraph>The use of BUPHENYL Tablets is indicated for children weighing more than 20 kg and for adults.</paragraph>
+                  <paragraph>The usual total daily dose of BUPHENYL Tablets and Powder for patients with urea cycle disorders is 450–600 mg/kg/day in patients weighing less than 20 kg, or 9.9–13.0 g/m2/day in larger patients. The tablets and powder are to be taken in ­equally divided amounts with each meal or feeding (i.e., three to six times per day).</paragraph>
+                  <paragraph>BUPHENYL Powder is indicated for oral use (via mouth, gastrostomy, or nasogastric tube) only. The powder is to be mixed with food (solid or liquid) for immediate use; however, when dissolved in water, BUPHENYL Powder has been shown to be stable for up to one week at room temperature or refrigerated. Sodium phenylbutyrate is very soluble in water (5 grams per 10 mL). When BUPHENYL Powder is added to a liquid, only sodium phenylbutyrate will dissolve, the excipients will not. The effect of food on sodium phenylbutyrate has not been determined. </paragraph>
+                  <paragraph>Each level teaspoon (enclosed) dispenses 3.2 grams of powder and 3.0 grams of sodium phenylbutyrate. Each level tablespoon (enclosed) dispenses 9.1 grams of powder and 8.6 grams of sodium phenylbutyrate.</paragraph>
+                  <paragraph>Shake lightly before use.</paragraph>
+                  <paragraph>The safety or efficacy of doses in excess of 20 grams (40 tablets) per day has not been established.</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+               <component>
+                  <section ID="NM">
+                     <id root="7797338f-5da0-4a37-8e94-bd53fb660958"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>NUTRITIONAL MANAGEMENT</title>
+                     <text>
+                        <paragraph>To promote growth and development, plasma levels of ammonia, arginine, branched-chain amino acids, and serum protein should be maintained within normal limits while plasma glutamine is maintained at levels less than 1,000 µmol/L. Minimum daily protein intake for a patient of a particular age should be taken from, for example, "Recommended Dietary Allowances", 10th ed., Food and Nutrition Board, National Academy of Sciences, 1989. The allocation of dietary nitrogen into natural protein and essential amino acids is a function of age, residual urea cycle enzyme activity, and the dose of sodium phenylbutyrate.</paragraph>
+                        <paragraph>At the recommended dose of sodium phenylbutyrate, it is suggested that infants with neonatal-onset CPS and OTC deficiencies initially receive a daily dietary protein intake limited to approximately 1.6 g/kg/day for the first 4 months of life. If tolerated, the daily protein intake may be increased to 1.9 g/kg/day during this period. Protein tolerance will decrease as the growth rate decreases, requiring a reduction in dietary nitrogen intake. From 4 months to 1 year of age, it is recommended that the infant receive at least 1.4 g/kg/day, but 1.7 g/kg/day is advisable. From 1 to 3 years of age, the protein intake should not be less than 1.2 g/kg/day; 1.4 g/kg/day is advisable during this period. For neonatal-onset patients with carbamylphosphate synthetase deficiency or ornithine transcarbamylase deficiency who are at least 6 months of age, it is recommended that the daily protein intake be equally divided between natural protein and supplemental essential amino acids.</paragraph>
+                        <paragraph>Patients with argininosuccinic acid synthetase deficiency and those with late-onset disease (partial deficiencies, including females heterozygous for ornithine transcarbamylase), initially may receive a diet containing the age-determined minimal daily natural protein allowance. The protein intake may be increased as tolerated and determined by plasma glutamine and other amino acid levels. However, many patients with partial deficiencies avoid dietary protein.</paragraph>
+                        <paragraph>Citrulline supplementation is required and recommended for patients diagnosed with neonatal-onset deficiency of carbamylphosphate synthetase or ornithine transcarbamylase; citrulline daily intake is recommended at 0.17 g/kg/day or 3.8 g/m<sup>2</sup>/day.</paragraph>
+                        <paragraph>The free-base form of arginine may be used instead of citrulline in patients with ­milder forms of carbamylphosphate synthetase and ornithine transcarbamylase deficiency (daily intake is recommended at 0.17 g/kg/day or 3.8 g/m<sup>2</sup>/day).</paragraph>
+                        <paragraph>Arginine supplementation is needed for patients diagnosed with deficiency of argininosuccinic acid synthetase; arginine (free base) daily intake is recommended at 0.4–0.7 g/kg/day or 8.8–15.4 g/m<sup>2</sup>/day.</paragraph>
+                        <paragraph>If caloric supplementation is indicated, a protein-free product is recommended. Caloric intake should be based upon the "Recommended Dietary Allowances", 10th ed., Food and Nutrition Board, National Research Council, National Academy of Sciences, 1989.</paragraph>
+                     </text>
+                     <effectiveTime value="20220805"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="595fb2dc-fbe2-4825-88cc-da39edd64eb0"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>BUPHENYL Tablets are available in 250 cc bottles which contain 250 sodium phenylbutyrate tablets (NDC 75987-060-08). The bottles are equipped with child-resistant caps. Each tablet is off-white, oval, and embossed with "UCY 500". Each tablet contains 500 mg of sodium phenylbutyrate. <content styleCode="bold">STORE AT ROOM TEMPERATURE 15°C–30°C (59°F–86°F). AFTER OPENING, KEEP BOTTLE TIGHTLY CLOSED.</content>
+                  </paragraph>
+                  <paragraph>BUPHENYL Powder is available in 500 cc bottles, which hold 266 grams of powder, containing 250 grams of sodium phenylbutyrate (NDC 75987-070-09). The bottles are equipped with child-resistant caps. Measurers are provided. Each level teaspoon (enclosed) dispenses 3.2 grams of powder and 3.0 grams of sodium phenylbutyrate. Each level tablespoon (enclosed) dispenses 9.1 grams of powder and 8.6 grams of sodium phenylbutyrate. <content styleCode="bold">STORE AT ROOM TEMPERATURE 15ºC–30ºC (59ºF–86ºF). AFTER OPENING, KEEP BOTTLE TIGHTLY CLOSED. </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5369670d-628c-4730-b8da-b3f40e6a4a63"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Distributed by: Horizon Therapeutics USA, Inc. Deerfield, IL 60015.</paragraph>
+                  <paragraph>Product of Germany</paragraph>
+                  <paragraph>NDC 75987-060-08 bottle contains 250 tablets of 500 mg.<br/>NDC 75987-070-09 bottle containing 250 g of sodium phenylbutyrate powder.</paragraph>
+                  <paragraph>Prescribing Information as of July 2022.</paragraph>
+                  <paragraph>BUP-US-PI-003</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6934fa20-083b-4ba4-94f3-2e0933fdb3c3"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title>PATIENT PACKAGE INSERT</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BUPHENYL<sup>®</sup> (sodium phenylbutyrate) Tablets</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BUPHENYL<sup>®</sup> (sodium phenylbutyrate) Powder</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about BUPHENYL?</content>
+                  </paragraph>
+                  <paragraph>BUPHENYL is prescribed along with changes in diet for long-term treatment of urea cycle disorders. BUPHENYL can only be obtained with a prescription from your doctor.</paragraph>
+                  <paragraph>BUPHENYL must be taken exactly as the doctor prescribes; do not increase or decrease the dose of this medication without the doctor's approval.</paragraph>
+                  <paragraph ID="cycle">
+                     <content styleCode="bold">What are urea cycle disorders?</content>
+                  </paragraph>
+                  <paragraph>Urea cycle disorders include a group of diseases, each having a specific liver enzyme deficiency. Because they are inherited, other family members may be affected. These disorders vary in severity and may be first detected at various ages, from newborn infants to adults. They lead to increased amounts of ammonia in the blood, which may cause disturbed brain function and severe brain damage. Typical signs of the disease are <content styleCode="bold">decreased mental awareness, vomiting, combativeness, slurred speech, unstable gait, and unconsciousness.</content> The diagnosis of urea cycle disorders requires special laboratory tests. <content styleCode="bold">These typical signs of the disease may recur after the diagnosis is made if the condition is not under control. If they do, the doctor should be notified immediately because this is a medical emergency. An infection can cause the condition to go out of control. Therefore, if a fever develops, the doctor should be seen immediately.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">A patient or carrier of these disorders should wear a Medic Alert tag stating the diagnosis. In the event that the patient has a sudden, rapid accumulation of ammonia in the blood, and, therefore, in the brain, leading to unconsciousness, the doctor will be alerted to treat the disease properly.</content>
+                  </paragraph>
+                  <paragraph>Periodically, depending upon the severity of a particular patient's urea cycle disorder, it will be necessary to perform blood tests. These include plasma ammonia, plasma amino acid levels, and other more routine blood tests to evaluate nutritional status.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is BUPHENYL?</content>
+                  </paragraph>
+                  <paragraph>BUPHENYL is a drug that helps to prevent ammonia from accumulating in the blood. BUPHENYL aids the body in eliminating substances that produce ammonia. However, despite drug treatment, blood ammonia levels may become elevated periodically and there may be episodes of altered brain function in association with these ammonia elevations. Patients who have disease onset as newborns have a high incidence of mental retardation. Medical attention should be obtained as soon as signs appear (see above under "<linkHtml href="#cycle">What are urea cycle disorders?</linkHtml>"). BUPHENYL may be used as lifelong therapy or as a temporary measure until liver transplantation is performed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What diet should I or my child follow?</content>
+                  </paragraph>
+                  <paragraph>In addition to taking BUPHENYL, it is equally important that a prescribed diet be followed. Because there is great variability in the severity of urea cycle disorders, each patient's diet should be custom designed by a physician and a nutritionist. Because the diet is so important, it is recommended that the prescribed diet be discussed with a nutritionist who is familiar with urea cycle disorders.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Who should not take BUPHENYL?</content>
+                  </paragraph>
+                  <paragraph>BUPHENYL is prescribed only for patients with urea cycle disorders. It is not to be used for any other reason. Keep the medication in a safe place where children ­cannot reach it.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What other medical conditions may also be present that could increase the risk of taking BUPHENYL?</content>
+                  </paragraph>
+                  <paragraph>Heart failure or decreased kidney function may lead to retention of the sodium content of BUPHENYL with potentially serious consequences such as worsening heart failure, high blood pressure, and swelling. If these medical conditions are present, the doctor will determine if your child should take BUPHENYL.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should I or my child take BUPHENYL?</content>
+                  </paragraph>
+                  <paragraph>The dose of BUPHENYL prescribed for adults and children is based upon the patient's weight or size. It is very important that the full amount prescribed for any 24-hour period be taken. If a dose is missed it should be administered as soon as possible that same day. The total daily dose should be administered in equally divided amounts with meals.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What medications should I or my child avoid or be cautious of taking while on BUPHENYL?</content>
+                  </paragraph>
+                  <paragraph>Patients with urea cycle disorders usually should not take Depakene<sup>®</sup> (valproic acid), a drug sometimes prescribed for seizure disorders, or Haldol<sup>®</sup> (haloperidol), a drug used to treat certain types of psychiatric or neurologic disorders. Both of these drugs have been reported to increase blood ammonia levels. Steroids may break down body protein, thereby increasing blood ammonia levels. The doctor should be consulted before administering medications containing steroids.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What medications may affect the way the body breaks down the drug?</content>
+                  </paragraph>
+                  <paragraph>Probenecid, a medication used to treat gout, may affect the way the kidneys excrete BUPHENYL (consult the doctor for details).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the most common side effects of BUPHENYL?</content>
+                  </paragraph>
+                  <paragraph>The most common side effect reported in premenopausal women taking BUPHENYL was absent or irregular menstrual periods. Decreased appetite was reported in 4% of all people treated. Body odor and bad taste were each reported in 3% of all patients treated.</paragraph>
+                  <paragraph>A breakdown product of BUPHENYL has been associated mainly with sleepiness and light-headedness. Because these symptoms may also be due to the urea cycle going out of control, a doctor should see the patient immediately if these symptoms occur, so the cause can be determined. Blood tests should be performed periodically for adverse effects and for levels of medication and its breakdown products.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How should BUPHENYL be stored?</content>
+                  </paragraph>
+                  <paragraph>BUPHENYL should be stored in a tightly closed bottle at room temperature.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">This leaflet provides a brief summary of the information available on BUPHENYL. The information here is incomplete and is not designed to take the place of your doctor's instructions. For more complete information, consult your physician, or contact Horizon at 1-866-479-6742.</content>
+                  </paragraph>
+                  <paragraph>BUP-US-PPI-003</paragraph>
+               </text>
+               <effectiveTime value="20220805"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d698584b-5a10-40a7-a2e1-01c095afdb10"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mg Tablet Bottle Carton</title>
+               <text>
+                  <paragraph>NDC 75987-060-08</paragraph>
+                  <paragraph>BUPHENYL<sup>®</sup>
+                     <br/> (sodium phenylbutyrate)</paragraph>
+                  <paragraph>500 mg Tablets</paragraph>
+                  <paragraph>250 Tablets</paragraph>
+                  <paragraph>Pharmacist: Dispense in this<br/> unit-of-use Child Resistant container<br/> with enclosed patient leaflet.</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20220805"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 500 mg Tablet Bottle Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="buphenyl-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1ceb11cd-5b36-432f-a8a4-53ad11fe1f53"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 250 Gram Bottle Carton</title>
+               <text>
+                  <paragraph>NDC 75987-070-09</paragraph>
+                  <paragraph>BUPHENYL<sup>®</sup>
+                     <br/> (sodium phenylbutyrate)</paragraph>
+                  <paragraph>Powder</paragraph>
+                  <paragraph>250 Grams</paragraph>
+                  <paragraph>Pharmacist: Dispense in this<br/>unit-of-use Child Resistant container<br/>with enclosed patient leaflet.</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20220805"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PRINCIPAL DISPLAY PANEL - 250 Gram Bottle Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="buphenyl-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
