@@ -1,3 +1,7 @@
+import java.lang.Object;
+import java.lang.Math;
+
+
 public class BitwiseHuman extends Main {
   
   public static final int UREA_CYCLE = Excretion;
