@@ -1,7 +1,8 @@
 package com.imhotepbizarrostriage;
 
-import java.lang.Object
+import java.lang.Object;
 import com.imhotepbizarrostriage.BitwiseHuman;
+import com.imhotepbizarrostriage.Symptoms;
 import com.imhotepbizarrostriage.Symptoms;
 
 import com.squareup.okhttp.*;
