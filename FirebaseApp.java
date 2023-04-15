@@ -1,6 +1,6 @@
 import java.lang.Object;
 
-public abstract FirebaseApp extends Main{
+public abstract class FirebaseApp extends Main{
   
   
 FileInputStream serviceAccount =
