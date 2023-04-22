@@ -6,6 +6,7 @@ import com.imhotepbizarrostriage.Symptoms;
 import com.imhotepbizarrostriage.FirebaseApp;
 import com.imhotepbizarrostriage.KeggNodeProcessMain;
 import com.imhotepbizarrostriage.Postmark;
+import com.imhotepbizarrostriage.FastaReader;
 
 import com.squareup.okhttp.*;
 
