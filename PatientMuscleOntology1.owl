@@ -1,0 +1,39 @@
+@Ontology(
+    axioms = {
+        @Axiom(
+            annotation = "Muscle Recovery Time",
+            expression = "MuscleRecoveryTime(Muscle, Sets, RecoveryTime) ⊢ Muscle ∈ Muscles ∧ Sets ∈ ℕ ∧ RecoveryTime ∈ ℕ"
+        ),
+        @Axiom(
+            annotation = "No Sets",
+            expression = "MuscleRecoveryTime(Muscle, 0, 0)"
+        ),
+        @Axiom(
+            annotation = "Three Sets",
+            expression = "MuscleRecoveryTime(Muscle, 3, 48)"
+        )
+    }
+)
+
+Ontology MuscleRecoveryTime {
+
+    Class Muscle {
+        rdfs:label "Muscle";
+    }
+
+    Class Sets {
+        rdfs:label "Sets";
+    }
+
+    Class RecoveryTime {
+        rdfs:label "Recovery Time";
+    }
+
+    ObjectProperty MuscleRecoveryTime {
+        rdfs:label "Muscle Recovery Time";
+        domain Muscle;
+        range Sets;
+        range RecoveryTime;
+    }
+
+}
