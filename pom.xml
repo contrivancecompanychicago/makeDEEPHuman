@@ -72,6 +72,11 @@
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
+             <dependency>
+                <groupId>com.metahuman.sdk</groupId>
+                <artifactId>metahuman-sdk</artifactId>
+                <version>1.0.0</version>
+             </dependency>
 
         <!-- MIME auto detect on files -->
         <dependency>
