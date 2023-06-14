@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class EyebrowJoint extends Main {
+public class EyebrowJoint extends MakeHuman {
 
     private List<Vertex> vertices;
     private List<Bone> bones;
