@@ -1,7 +1,7 @@
 import makehuman.model.Model;
 import makehuman.model.ModelBuilder;
 
-public class MakeHuman {
+public class MakeHuman extends Main {
 
     public static void main(String[] args) {
         // Create a new model builder
